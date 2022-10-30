@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4654634117623717021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4654634117623717023}
+  - component: {fileID: 4654634117623717022}
+  m_Layer: 0
+  m_Name: ImageReferenceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4654634117623717023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4654634117623717021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4654634117623717022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4654634117623717021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5021e1d555ba4d92a3269b2c60081ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileDrawerTreeUnchecked: {fileID: 21300000, guid: 6bf4e10ddeee2f644ad8e5ca1324235e, type: 3}
+  tileDrawerTreeChecked: {fileID: 21300000, guid: d37e6dce9ac596249bb8a376099e8328, type: 3}
+  tileDrawerSnowUnchecked: {fileID: 21300000, guid: 006ee9d283ff327439db2e43da134c13, type: 3}
+  tileDrawerSnowChecked: {fileID: 21300000, guid: 5270379ec5a309b4b904cbf62ed783e1, type: 3}
+  tileDrawerIceUnchecked: {fileID: 21300000, guid: ba16f91309a5c364f916c7f76a957fbd, type: 3}
+  tileDrawerIceChecked: {fileID: 21300000, guid: c7a41dbff326aa84196a7fa9679a244e, type: 3}
+  FlagUnchecked: {fileID: 21300000, guid: acef71ffde109104195ccfe1d908a5ed, type: 3}
+  FlagChecked: {fileID: 21300000, guid: 3a325ce658340b34fb9593a05356b785, type: 3}
+  FlagSilhouetteUnchecked: {fileID: 21300000, guid: fcebdbac9098fc84eb89962862026ed5, type: 3}
+  FlagSilhouetteChecked: {fileID: 21300000, guid: f9af23def67960a4ea32fb71a73f2357, type: 3}
+  WayUnchecked: {fileID: 21300000, guid: 16b6fc6f43a2d5e449845e658b4f3b8d, type: 3}
+  WayChecked: {fileID: 21300000, guid: 2e1abb56ecbc08f489538a4462ee6e20, type: 3}
+  EraserUnchecked: {fileID: 21300000, guid: b3eee8f8ee91eff4ea022c1fb76e7da0, type: 3}
+  EraserChecked: {fileID: 21300000, guid: 81cb1abdda74c7f4091a92466044dbf1, type: 3}
+  WayEraserUnchecked: {fileID: 21300000, guid: beb30e75b9ade7444a5424bc0f2aff25, type: 3}
+  WayEraserChecked: {fileID: 21300000, guid: 6ce69d3df7be0604983884514a7fa0d2, type: 3}
+  MothButtonUnchecked: {fileID: 21300000, guid: 9768c7720254ff3478e829d9eb19f3c2, type: 3}
+  MothButtonChecked: {fileID: 21300000, guid: fb46638576cdee644998b76e6d8338e4, type: 3}
+  MothButtonSilhouetteUnchecked: {fileID: 21300000, guid: f5a1bc2fa34b5ee4291c45bbafb9fdb4, type: 3}
+  MothButtonSilhouetteChecked: {fileID: 21300000, guid: 45d6662b3c769ed4fb1b2c4b97c562bf, type: 3}
+  MothCottonUnchecked: {fileID: 21300000, guid: a0209e092d80fae4abcb320b69418d73, type: 3}
+  MothCottonChecked: {fileID: 21300000, guid: cba1ecd10c4616c43a902fb090368d6e, type: 3}
+  MothCottonSilhouetteUnchecked: {fileID: 21300000, guid: 6bdd4184336e66e4e8aefad256c64ba6, type: 3}
+  MothCottonSilhouetteChecked: {fileID: 21300000, guid: 9efa663f704b7f6458829be74de5eccd, type: 3}
+  MothNeedleUnchecked: {fileID: 21300000, guid: b1c83b3a04b066f4fae407c1d37ad830, type: 3}
+  MothNeedleChecked: {fileID: 21300000, guid: c9b43d3293f914e439ed1ab980d3154b, type: 3}
+  MothNeedleSilhouetteUnchecked: {fileID: 21300000, guid: ed158058585537341ab1047d6e5d0db0, type: 3}
+  MothNeedleSilhouetteChecked: {fileID: 21300000, guid: 76785cfef0772ad49a4441f0340a6fcb, type: 3}
+  MothPatchUnchecked: {fileID: 21300000, guid: cbc7da9a152c8c848b04c907eeff4451, type: 3}
+  MothPatchChecked: {fileID: 21300000, guid: 5f1fcbde860707e4892644e5a7cc53ec, type: 3}
+  MothPatchSilhouetteUnchecked: {fileID: 21300000, guid: a1b0558c774adff4a8af26e3c25b1ddd, type: 3}
+  MothPatchSilhouetteChecked: {fileID: 21300000, guid: 7c18448e438505c429fcc7a6d33f9845, type: 3}
+  PlayButton: {fileID: 21300000, guid: 9effe997d2495ce41b050c6f15fb436c, type: 3}
+  PauseButton: {fileID: 21300000, guid: 74b156b351261614c9ae02b05afb5cbb, type: 3}
+  SpeedSlowButton: {fileID: 21300000, guid: a2e506d3418a0cc44b34448a6e885e41, type: 3}
+  SpeedNormalButton: {fileID: 21300000, guid: a2e506d3418a0cc44b34448a6e885e41, type: 3}
+  SpeedFastButton: {fileID: 21300000, guid: a2e506d3418a0cc44b34448a6e885e41, type: 3}
+  FragezeichenButton: {fileID: 21300000, guid: 1d1ac62c69df7344ca7b3ce220743375, type: 3}
+  AusrufezeichenButton: {fileID: 21300000, guid: 0614c89f9bf1bb94eaaee3a1b89a63db, type: 3}
+  TreeGroundButton: {fileID: 0}
+  SnowGroundButton: {fileID: 0}
+  IceGroundButton: {fileID: 0}
+  WayDrawerButton: {fileID: 0}
+  EraserButton: {fileID: 0}
+  WayEraserButton: {fileID: 0}
+  FlagButton: {fileID: 0}
+  MothButtonButton: {fileID: 0}
+  MothButtonCottn: {fileID: 0}
+  MothButtonNeedle: {fileID: 0}
+  MothButtonPatch: {fileID: 0}
+  PlayPauseButton: {fileID: 0}
+  SpeedButton: {fileID: 0}
+  FrageButton: {fileID: 0}

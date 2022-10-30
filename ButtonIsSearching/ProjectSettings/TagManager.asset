@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MothBreadth
+  - MothDepth
+  - MothDijkstra
+  - MothAStar
+  - PauseMenu
+  - SaveManager
+  - BuildingManager
+  - Menu
+  - BuildMode
+  - StartButton
+  - QuizText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - GraphMap
+  - Water
+  - UI
+  - TopDecoration
+  - Bottom
+  - PauseMenu
+  - FilmMode UI
+  - SavesList
+  - 
+  - TextFields
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: bottom/end
+    uniqueID: 4178038621
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: top
+    uniqueID: 3271098993
+    locked: 0
+  - name: upper top
+    uniqueID: 1417065543
+    locked: 0
